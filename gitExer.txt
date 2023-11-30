@@ -2,4 +2,61 @@
 //Date: 30/11/2023
 //Nom: ANDRIATSILAVO Matteo
 
+~Exercice 1:
+	1) /
 
+	2) "Dépôt Git vide initialisé dans /home/pltguest/TP1_GIT_ANDRIATSILAVO/Exer1/.git/"
+
+	3) 4) /
+
+	5) "	Modifications qui seront validées :
+	  	(utilisez "git rm --cached <fichier>..." pour désindexer)
+		nouveau fichier : gitExer.txt					"
+		
+	6) git commit -m"Nouveau fichier ajouité: <gitExer.txt>"
+
+	7) git status
+	   "	Sur la branche master
+		rien à valider, la copie de travail est propre		"
+	
+	8) La commande git log -p présente dans le terminal toutes les informations relatives au git ou répertoire que l'on a créé, les fichiers ajoutés (suivis ou non) et leur arborescence ainsi que l'en-tête du fichier (ici gitExer.txt) que l'on écrit depuis le début.
+	
+	9) git diff
+	   Aucun résultat apparent
+	   
+	10) /
+	
+	11) Il n'y a rien sur le serveur github.
+	
+	12) On modifie gitExer.txt en écrivant cette réponse 
+	
+		Commits bien arrivés sur le serveur.
+		
+~Exercice 2:
+	1) /
+	
+	2) git clone git@github.com:natmaurice/OPI23-EI3.git
+	
+	   Répertoire créé: OPI23-EI3
+	   
+	3) "	Sur la branche main
+		Votre branche est à jour avec 'origin/main'.
+
+		rien à valider, la copie de travail est propre		"
+		
+	4) On crée le fichier MadANDT.txt
+	
+	5) git add MadANDT.txt
+	
+	6) Permission non accordée
+	
+	7) git pull
+	
+	8) git push MadANDT.txt
+	
+	9) 10) /
+	
+	11) Les modifications ne s'envoient pas, cause: conflit sur les fichiers que je modifie
+	
+	12) Les modifications sont apportées sur le serveur, avec en message de mis eà jour les commits rentrés
+	
